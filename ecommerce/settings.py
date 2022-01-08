@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-70si&)q_&fsp_o-wi+2a^muik^!&c4re2)7n0$(@tju@o5o1wj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['143.198.126.130']
+ALLOWED_HOSTS = ['143.244.160.233']
 
 
 # Application definition
@@ -89,8 +89,8 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blogdb',
-        'USER': 'blog_admin',
+        'NAME': 'ecommercedb',
+        'USER': 'ecommerce_admin',
         'PASSWORD': 'testing123',
         'HOST': 'localhost',
         'PORT': '',
@@ -132,6 +132,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
+
 
 STATIC_URL = '/static/'
 MEDIA_URL='/media/'
